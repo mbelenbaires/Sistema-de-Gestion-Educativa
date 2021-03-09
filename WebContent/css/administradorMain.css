@@ -1,0 +1,35 @@
+header{
+	width: 100%;
+	height: 50px;
+	background: #212529;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+header .contenedor{
+	width: 98%;
+	margin: auto;
+}
+
+header .contenedor .icon h1 {
+    float: left;
+	color: white;
+}
+
+header .contenedor{
+	display: table;
+}
+
+cartel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+cartel .contenedor{
+    position: absolute;
+    top: 40%;
+}

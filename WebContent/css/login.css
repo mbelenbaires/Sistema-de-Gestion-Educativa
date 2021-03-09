@@ -1,0 +1,37 @@
+.login{
+    background: black;
+}
+
+.login-box .logo{
+    border-radius: 100%;
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    left: 15%;
+    top: 3%;
+}
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-box form{
+    position: absolute;
+    top: 50%;
+}
+
+.login-box form button{
+    position: absolute;
+    left: 62%;
+}
+
+.login-box{
+    border-style: solid;
+}

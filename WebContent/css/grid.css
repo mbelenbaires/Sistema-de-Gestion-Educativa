@@ -1,0 +1,15 @@
+grid{
+    position: relative;
+    top: 100px;
+}
+
+.table td{
+    color: black;
+    border-style: solid;
+    border-top: 1px;
+    border-right: 1px;
+}
+
+.grid_Linea{
+   background: white;
+}

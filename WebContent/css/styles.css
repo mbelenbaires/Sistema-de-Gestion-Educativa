@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url(administradorMain.css);
+@import url(menu.css);
+@import url(grid.css);
+@import url(login.css);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+.DocenteMainbtnSeleccionar{
+  background-image:url(/TPINT_GRUPO_6_LAB_4/img/selectRow.gif);
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+	background-repeat:no-repeat;
+  	background-position:center;
+ 	border: 0;
+	outline: none;
+ 	color: transparent;
+
+}
+
+.btnGuardarUnaNota{
+  background-image:url(/TPINT_GRUPO_6_LAB_4/img/Save.gif);
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+	background-repeat:no-repeat;
+  	background-position:center;
+ 	border: 0;
+	outline: none;
+ 	color: transparent;
+
+}
+
+
+.btnModificarUnaNota{
+  background-image:url(/TPINT_GRUPO_6_LAB_4/img/ActionUpdate.gif);
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+	background-repeat:no-repeat;
+  	background-position:center;
+ 	border: 0;
+	outline: none;
+ 	color: transparent;
+
+}
